@@ -4,7 +4,7 @@ metadata:
   labels:
     run: nginx
     app: giropops
-  name: primeiro-deployment
+  name: terceiro-deployment
   namespace: default
 spec:
   replicas: 1
