@@ -2,13 +2,11 @@ apiVersion: apps/v1
 kind: ReplicaSet
 metadata:
   name: replica-set-primeiro
-  labels:
-    tier: primeiro-repst
 spec:
   replicas: 3
   selector:
     matchLabels:
-      tier: primeiro-repst
+      system: Giropops
   template:
     metadata:
       labels:
