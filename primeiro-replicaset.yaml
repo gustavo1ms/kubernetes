@@ -6,10 +6,10 @@ metadata:
     tier: primeiro-repst
 spec:
   replicas: 3
-  template:
   selector:
     matchLabels:
       tier: primeiro-repst
+  template:
     metadata:
       labels:
         system: Giropops
