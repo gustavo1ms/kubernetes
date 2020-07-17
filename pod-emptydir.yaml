@@ -12,7 +12,7 @@ spec:
       - "3600"
     volumeMounts:
     - mountPath: /giropops
-      name: girpops-dir
+      name: giropops-dir
   volumes:
   - name: girpops-dir
     emptyDir: {}
