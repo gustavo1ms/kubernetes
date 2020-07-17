@@ -14,5 +14,5 @@ spec:
     - mountPath: /giropops
       name: giropops-dir
   volumes:
-  - name: girpops-dir
+  - name: giropops-dir
     emptyDir: {}
