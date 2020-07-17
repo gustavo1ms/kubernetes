@@ -15,4 +15,4 @@ spec:
       name: giropops-dir
   volumes:
   - name: giropops-dir
-    emptyDir: {}
+    emptyDir: {} 
