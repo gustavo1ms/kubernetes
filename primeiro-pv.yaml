@@ -10,6 +10,6 @@ spec:
   persistentVolumeReclaimPolicy: Retain
   nfs:
     path: /opt/giropops
-    server: 192.168.0.12
+    server: 192.168.0.13
     readOnly: false
   
